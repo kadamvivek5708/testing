@@ -51,7 +51,7 @@ st.info("Information")
 st.exception(RuntimeError("RuntimeError exception"))
 
 st.sidebar.title("5 Minutes Engineering")
-st.sidebar.image("photo.jpg")
+st.sidebar.image("image.jpg")
 
 df = pd.DataFrame(np.random.randn(50, 20), columns=("col %d" % i for i in range(20)))
 st.dataframe(df)
